@@ -56,6 +56,7 @@
 
     body {
       margin-top: var(--nav-height);
+      /*margin-right: 60px;*/
     }
 
     /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -130,19 +131,21 @@
     footer {
       background-color: #555;
       color: white;
-      padding: 15px;
+      /*padding: 15px;*/
+      position: absolute;
       width: 100%;
       left: 0;
-      bottom: 0;
+      right: 0;
+      height: 40px;
     }
 
     .avatar {
       vertical-align: middle;
-      width: 150px;
+      width: auto;
       max-width: 100%;
       height: auto;
       padding: 5px;
-      border-radius: 50%;
+      border-radius: 70%;
     }
 
     /* On small screens, set height to 'auto' for sidenav and grid */
@@ -203,7 +206,7 @@
       <div class="sidenav">
         <div class="row">
           <div class="col-6 col-md-12" align="center">
-            <img src="./img/princess.png" alt="Scientist" class="avatar">
+            <img src="./img/2017-headshot.jpg" alt="Scientist" class="avatar">
           </div>
           <div class="col-6 col-md-12">
             <p><i class="fas fa-envelope"></i> h [at] email.com</p>
