@@ -212,15 +212,21 @@
             <p><i class="fas fa-envelope"></i> hilary.hurst@sjsu.edu </p>
             <p><i class="fas fa-map-marker"></i> [Office Number] </p>
             <p><i class="fas fa-file-pdf"></i> <a href="./files/hmh_cv.pdf"> C.V. </a></p>
-            <p><i class="ai ai-google-scholar"></i><a
+            <p><i class="ai ai-google-scholar"></i> <a
                 href="https://scholar.google.com/citations?hl=en&user=kgFNxugAAAAJ"> Google Scholar </a></p>
           </div>
         </div>
       </div>
 
       <div class="main text-left">
-        <h1 id="welcome">Welcome</h1>
-        <p>Sample website text, welcome, etc.</p>
+        <h1 id="welcome">Welcome!</h1>
+        <p>My name is Hilary Hurst and I am a theoretical physicist. I am currently an NRC Postdoctoral Fellow in the group of <a href="https://ultracold.jqi.umd.edu">Ian Spielman</a> at the Joint Quantum Institute in Maryland, USA. In the Fall I will join the physics faculty at San Jose State University. I received my PhD in theoretical condensed matter physics from the University of Maryland under the supervision of <a href="http://terpconnect.umd.edu/~galitski/">Prof. Victor Galitski</a>. I have broad research interests in condensed matter theory and many-body atomic physics, including 
+        <ul>
+        <li>theory of quantum measurement and feedback control for many-body quantum systems</li>
+        <li>dynamics of spinor Bose-Einstein condensates under continuous measurement</li> 
+        <li>magnetization dynamics in dissipative spintronic systems</li>
+        </ul>
+        <!-- Interested in doing research with me? Get in touch at hilary.hurst (at) sjsu.edu </p> -->
         <hr>
 
 
@@ -327,8 +333,13 @@
       </div>
     </div>
 
-    <footer class="container-fluid text-center">
-      <p>Last updated: May 9, 2020</p>
+    <footer class="container-fluid text-center"> 
+      <!-- <p>Last Updated: <span id="demo"></span>.</p> -->
+      <script>
+      var modiDate = document.lastModified;
+      // var showAs = modiDate.getDate() + "-" + (modiDate.getMonth() + 1) + "-" + modiDate.getFullYear();
+      document.write("Last Updated: "+modiDate);
+      </script>
     </footer>
 
 </body>
